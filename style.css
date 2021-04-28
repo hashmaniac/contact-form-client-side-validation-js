@@ -1,0 +1,31 @@
+body {
+	font-family: "Varela Round", sans-serif !important;
+}
+
+input, label, textarea {
+	display: block;
+}
+
+.hidden {
+	display: none;
+}
+
+.help-block {
+	color: red;
+	font-size: 0.9em;
+	font-family: "Roboto Condensed", sans-serif;
+	font-weight: 600;
+}
+
+button {
+	padding: .7rem;
+	border: 1px solid transparent;
+	border-radius: .5rem !important;
+	color: white;
+	background-color: blue;
+	transition: all 0.3s;
+}
+
+button:hover {
+	background-color: darkblue;
+}
