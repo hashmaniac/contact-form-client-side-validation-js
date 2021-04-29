@@ -20,7 +20,7 @@ const isValidPhone = (phone) => {
 
 //function to check name is atleast 3 characters
 const isValidName = (name) => {
-	const letters = /^[A-Za-z]+$/;
+	const letters = /^[a-zA-Z-'. ]+$/;
 	let na = "";
     if (name.length >= 3) {
     	na = name.match(letters);
